@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Achaar Ghar – Homemade Pickles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="ann">Festive offer: 5% OFF on ₹400–₹700 · 10% OFF above ₹700 · Free delivery over ₹750</div>
+
+<header>
+    <h1 id="logo" role="button" tabindex="0" title="Back to home" onclick="goHome()" onkeydown="if(event.key=='Enter')goHome()">
+        🫙 Achaar Ghar <span class="tag adm-only" style="background:var(--ac);color:#fff;vertical-align:middle">ADMIN</span>
+    </h1>
+    <nav>
+        <button class="b g" data-v="shop">Shop</button>
+        <button class="b g" data-v="track">Track order</button>
+        <button class="b g" data-v="admin">Admin</button>
+        <button class="b g" id="tb" title="Toggle theme">🌓</button>
+        <button class="b g" id="ab">Login</button>
+        <button class="b" id="cb">🛒 Cart (0)</button>
+    </nav>
+</header>
+
+<main id="app"></main>
+
+<footer>
+    <div class="fg">
+        <div>
+            <h3 style="cursor:pointer" onclick="goHome()">🫙 Achaar Ghar</h3>
+            <p>Small-batch pickles made the traditional way, shipped fresh across India.</p>
+        </div>
+        <div>
+            <b>Quick links</b>
+            <a onclick="gc('Mango')">Mango pickles</a>
+            <a onclick="gc('Lemon')">Lemon pickles</a>
+            <a onclick="gc('Chilli')">Chilli pickles</a>
+            <a onclick="gc('All')">All products</a>
+        </div>
+        <div>
+            <b>Important info</b>
+            <a>About us</a>
+            <a>Shipping policy</a>
+            <a>Return &amp; refund policy</a>
+            <a>Privacy policy</a>
+        </div>
+        <div>
+            <b>Need help?</b>
+            <p>support@achaarghar.example<br>Mon–Sat, 9:00 AM–5:30 PM</p>
+        </div>
+    </div>
+    <p style="text-align:center;opacity:.7;margin:20px 0 0">© 2026 Achaar Ghar.</p>
+</footer>
+
+<div id="ov"></div>
+<script src="app.js"></script>
+</body>
+</html>
